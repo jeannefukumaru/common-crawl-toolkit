@@ -1,3 +1,5 @@
+# modified from: https://www.bellingcat.com/resources/2015/08/13/using-python-to-mine-common-crawl/ 
+
 import requests
 import argparse
 import time
