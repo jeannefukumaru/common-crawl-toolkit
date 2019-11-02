@@ -1,3 +1,5 @@
+cc-id-warc-paths.csv
+test-warc.csv
 .DS_Store
 # Byte-compiled / optimized / DLL files
 __pycache__/
