@@ -27,9 +27,10 @@ def download_page(record):
     
     # The page is stored compressed (gzip) to save space
     # We can extract it using the GZIP library
-    raw_data = zipfile.ZipFile(io.BytesIO(resp.content))
+    raw_data = io.BytesIO(resp.content
+    f = gzip.GzipFile(fileobj=raw_data)
     # What we have now is just the WARC response, formatted:
-    data = raw_data.read()
+    data = f.read()
     
     response = ""
     
