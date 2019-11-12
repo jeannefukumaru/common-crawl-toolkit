@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# taken from https://github.com/lxucs/commoncrawl-warc-retrieval/blob/master/cdx-index-retrieval.py
+# thanks to https://github.com/lxucs/commoncrawl-warc-retrieval
 
 from os import listdir, makedirs
 from os.path import join
