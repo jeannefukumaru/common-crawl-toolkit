@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+
+# taken from https://github.com/lxucs/commoncrawl-warc-retrieval/blob/master/cdx-index-retrieval.py
+
 from os import listdir, makedirs
 from os.path import join
 import json
